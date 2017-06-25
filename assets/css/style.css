@@ -1,0 +1,701 @@
+body {
+
+	margin: 0px;
+
+}
+
+p, label, input, button {
+
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
+}
+
+header {
+
+	background-color: #ffffff;
+	border-color: #cccccc;
+	width: 960px;
+	margin: auto;
+
+}
+
+.clearfix::after {
+
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+h1 {
+	
+	background-color: #4aaaa5;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+
+}
+
+h2, h3 {
+
+	color: #4aaaa5;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+
+header > p {
+
+	float: right;
+	margin: 29px 0px 28px 0px;
+
+}
+
+#name {
+
+	float: left;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+#about {
+	
+	padding-right: 10px;
+	border-right: solid #ccc;
+
+}
+
+#portfolio {
+
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: solid #ccc;
+
+}
+
+#contact {
+	
+	padding-left: 10px;
+
+}
+
+.main_content_background {
+
+	background-color: #eee;
+	padding-top: 30px;
+	border-top: solid #bbb;
+	height: 105vh;
+	border-bottom: solid #4aaaa5 15px;
+
+}
+
+
+.main_content {
+
+	width: 960px;
+	background-color: #eee;
+	margin: auto;
+
+}
+
+.main_content > section > div > hr {
+
+	border: 0px;
+	height: 3px;
+	background: #ccc;
+
+}
+
+#about_me {
+
+	background-color: #ffffff;
+	float: left;
+	width: 650px;
+	border: solid #dddddd;
+
+}
+
+#about_me_content {
+
+	margin: 30px;
+
+}
+
+#about_me_content > img {
+
+	float: left;
+	margin-right: 10px;
+
+}
+
+#sidebar {
+
+	background-color: #ffffff;
+	float: right;
+	width: 270px;
+	border: solid #dddddd;
+
+}
+
+#sidebar_content {
+
+	margin: 30px;
+
+}
+
+#sidebar_content > h3 {
+
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 15px;
+
+}
+
+#sidebar_content > hr {
+
+	height: 1px;
+	
+}
+
+#linkedin {
+
+	width: 50px;
+	height: 50px;
+	margin: 8px;
+
+}
+
+#github {
+
+	width: 50px;
+	height: 50px;
+	margin: 9px;
+
+}
+
+#twitter {
+
+	width: 50px;
+	height: 50px;
+	margin: 8px;
+
+}
+
+footer {
+
+	background-color: #666666; 
+
+}
+
+footer > p {
+
+	color: #ffffff;
+	text-align: center;
+	padding: 50px;
+	margin: 0px;
+
+}
+
+.intro_text {
+
+	text-align: justify;
+
+}
+
+/*Change <a> tag style to match page*/
+a:link {
+
+    color: #777777;
+    text-decoration: none;
+
+}
+
+a:visited {
+
+    color: #777777;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: #333333;
+    text-decoration: underline;
+
+}
+
+a:active {
+
+    color: #777777;
+    text-decoration: none;
+
+}
+
+
+
+/*CSS for Contact Page*/
+
+#contact_page {
+
+	background-color: #ffffff;
+	width: 650px;
+	border: solid #dddddd;
+	float: left;
+
+}
+
+#contact_page_content {
+
+	margin: 30px;
+
+}
+
+input {
+
+	width: 98%;
+	font-size: 15px;
+	color: #ddd;
+	padding: 5px;
+
+}
+
+label {
+
+	font-size: 20px;
+	line-height: 200%;
+	font-weight: bold;
+
+}
+
+#contact_form_message {
+
+	width: 99.4%;
+	height: 300px;
+
+}
+
+button {
+
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-top: 20px;
+
+}
+
+/*CSS for profolio page*/
+
+#portfolio_page {
+
+	background-color: #ffffff;
+	width: 650px;
+	border: solid #dddddd;
+	float: left;
+
+}
+
+#portfolio_page_content {
+
+	margin: 30px;
+
+}
+
+#portfolio_page_content > div > img {
+
+	width: 265px;
+	height: 265px;
+
+}
+
+#portfolio_page_content > div {
+
+	display: inline-block;
+	
+
+}
+
+.odd_image {
+
+	margin: 20px 27px 20px 0px;
+
+}
+
+.even_image {
+
+	margin: 20px 0px 20px 27px;
+
+}
+
+#portfolio_page_content > div > h1 {
+
+	width: 225px;
+	position: absolute;
+	bottom: 35px;
+	text-align: center;
+	padding: 15px 20px 15px 20px;
+
+}
+
+.odd_image_div {
+
+	position: relative;
+
+
+}
+
+.odd_image_div > h1 {
+
+	left: 0px;
+
+}
+
+.even_image_div {
+
+	position: relative;
+
+}
+
+.even_image_div > h1 {
+
+	right: 0px;
+
+}
+
+/*media queries 980px*/
+
+@media screen and (max-width: 980px) {
+
+	/*For About me Page*/
+
+	header {
+
+		width: 748px;
+
+	}
+
+	.main_content_background {
+
+		height: 300vh;
+
+	}
+
+	.main_content {
+
+		width: 748px;
+
+	}
+
+	#about_me {
+
+		width: 520px;
+
+	}
+
+	#about_me_content > img {
+
+	float: none;
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 10px;
+
+	}
+
+	#sidebar {
+
+		width: 200px;
+
+	}
+
+	#sidebar_content {
+
+		margin: 20px;
+
+	}
+
+	#sidebar_content > h3 {
+
+		font-size: 21px;
+
+	}
+
+	#sidebar_content > img {
+
+		width: 40px;
+		height: 40px;
+		margin: 5px;
+
+	}
+
+	/*For Portfolio Page*/
+
+	#portfolio_page {
+
+		width: 520px;
+
+	}
+
+	#portfolio_page_content > div > img {
+
+		width: 460px;
+		height: 460px;
+		margin: 10px 0px 10px 0px;
+
+	}
+
+	#portfolio_page_content > div > h1 {
+
+		width: 420px;
+
+	}
+
+	/*For Contact Page*/
+
+	#contact_page {
+
+		width: 520px;
+
+	}
+
+}
+
+/* media query for 768px */
+
+@media screen and (max-width: 768px) {
+
+	/*for About me Page */
+
+	header {
+
+		width: 620px;
+
+	}
+
+	.main_content_background {
+
+		height: 300vh;
+
+	}
+
+	.main_content {
+
+		width: 620px;
+
+	}
+	
+	#about_me {
+
+		width: 620px;
+
+	}
+
+	#about_me_content > img {
+
+		float: left;
+		width: 200px;
+		height: 200px;
+		margin-bottom: 0px;
+		margin-right: 10px;
+
+	}
+
+	#sidebar {
+
+		width: 620px;
+		margin-top: 20px;
+		float: left;
+
+	}
+
+	#sidebar_content {
+
+		margin: 30px;
+
+	}
+
+	#sidebar_content > h3 {
+
+		font-size: 30px;
+		text-align: left;
+
+	}
+
+	#sidebar_content > img {
+
+		width: 60px;
+		height: 60px;
+		margin: 5px;
+
+	}
+
+	/*For Portfolio Page*/
+
+	#portfolio_page {
+
+		width: 620px;
+
+	}
+
+	#portfolio_page_content > div > img {
+
+		width: 265px;
+		height: 265px;
+		margin: 10px 0px 10px 0px;
+
+	}
+
+	#portfolio_page_content > div > h1 {
+
+		width: 225px;
+
+	}
+
+	.odd_image_div {
+
+		margin-right: 12px;
+
+	}
+
+	.even_image_div {
+
+		margin-left: 12px;
+
+	}
+
+	/*For Contact Page*/
+
+	#contact_page {
+
+		width: 620px;
+
+	}
+
+}
+
+/*Media Query for 640px*/
+
+@media screen and (max-width: 640px) {
+
+	header {
+
+		position: static;
+		width: 640px;
+		margin: 0px;
+
+	}
+
+	h1 {
+
+		width: 600px;
+		text-align: center;
+
+	}
+
+	header > p {
+
+		margin: 15px 0px;
+	
+
+	}
+
+	#about {
+		
+		padding: 0px 79.5px;
+		border-right: solid #ccc;
+
+	}
+
+	#portfolio {
+
+		padding: 0px 79.5px;
+		border-right: solid #ccc;
+
+	}
+
+	#contact {
+		
+		padding: 0px 79.5px;
+
+	}
+
+	.main_content_background {
+
+		width: 640px;
+		height: 360vh;
+
+	}
+
+	.main_content {
+
+		width: 580px;
+
+	}
+
+	#about_me {
+
+		width: 580px;
+
+	}
+
+	#sidebar {
+
+		width: 580px;
+
+	}
+
+	/*For Portfolio Page*/
+
+	#portfolio_page {
+
+		width: 580px;
+
+	}
+
+	#portfolio_page_content > div > img {
+
+		width: 520px;
+		height: 100%;
+		margin: 10px 0px 10px 0px;
+
+	}
+
+	#portfolio_page_content > div > h1 {
+
+		width: 480px;
+
+	}
+
+	.odd_image_div {
+
+		margin-right: 0px;
+
+	}
+
+	.even_image_div {
+
+		margin-left: 0px;
+
+	}
+
+	footer {
+
+		width: 640px;
+
+	}
+
+	/*For Contact Page*/
+
+	#contact_page {
+
+		width: 580px;
+
+	}
+
+}
